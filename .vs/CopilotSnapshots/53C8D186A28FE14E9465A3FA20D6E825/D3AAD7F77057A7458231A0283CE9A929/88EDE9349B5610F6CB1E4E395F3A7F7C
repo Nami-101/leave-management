@@ -1,0 +1,65 @@
+﻿@model LeaveManagementSystemCore.Models.LeaveRequest
+
+@{
+    ViewData["Title"] = "Apply for Leave";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form asp-action="Create" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="EmployeeName" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="EmployeeName" class="form-control" />
+            <span asp-validation-for="EmployeeName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LeaveType" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="LeaveType" class="form-control" />
+            <span asp-validation-for="LeaveType" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StartDate" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="StartDate" class="form-control" type="date" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EndDate" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="EndDate" class="form-control" type="date" />
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Reason" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <textarea asp-for="Reason" class="form-control"></textarea>
+            <span asp-validation-for="Reason" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

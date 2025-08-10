@@ -1,0 +1,19 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=LeaveManagementSystemCoreDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=LeaveManagementSystemCoreDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "..."
+}

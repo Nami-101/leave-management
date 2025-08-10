@@ -1,0 +1,61 @@
+﻿@model IEnumerable<LeaveManagementSystemCore.Models.LeaveRequest>
+
+@{
+    ViewData["Title"] = "Leave Requests";
+    var isHR = User.IsInRole("HR");
+}
+
+<h2>Leave Requests</h2>
+
+@if (!Model.Any())
+{
+    <p>No leave requests found.</p>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Employee Name</th>
+                <th>Leave Type</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Reason</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var request in Model)
+            {
+                <tr>
+                    <td>@request.EmployeeName</td>
+                    <td>@request.LeaveType</td>
+                    <td>@request.StartDate.ToShortDateString()</td>
+                    <td>@request.EndDate.ToShortDateString()</td>
+                    <td>@request.Reason</td>
+                    <td>@request.Status</td>
+                    <td>
+                        @if (isHR && request.Status == "Pending")
+                        {
+                            <a asp-action="Approve" asp-route-id="@request.Id" class="btn btn-success btn-sm">Approve</a>
+                            <a asp-action="Reject" asp-route-id="@request.Id" class="btn btn-danger btn-sm">Reject</a>
+                        }
+                        else if (!isHR)
+                        {
+                            <a asp-action="Edit" asp-route-id="@request.Id" class="btn btn-warning btn-sm">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@request.Id" class="btn btn-danger btn-sm">Delete</a>
+                        }
+
+                        <a asp-action="Details" asp-route-id="@request.Id" class="btn btn-info btn-sm">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (!isHR)
+{
+    <a asp-action="Create" class="btn btn-primary">Apply for Leave</a>
+}

@@ -1,0 +1,110 @@
+﻿@model LeaveManagementSystemCore.Models.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+<!-- Flash message -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<!-- Custom error animation -->
+@if (!ViewData.ModelState.IsValid)
+{
+    <div id="errorBox" class="alert alert-danger animated shake">
+        ❌ Wrong password, think harder!
+    </div>
+}
+
+<form asp-action="Login" method="post" class="form-horizontal" role="form">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="Email" class="form-control" placeholder="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="Password" class="form-control" placeholder="Password" type="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                <input asp-for="RememberMe" class="form-check-input" />
+                <label asp-for="RememberMe" class="form-check-label"></label>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <p>Don't have an account?</p>
+            <a asp-action="Register" asp-controller="Account" class="btn btn-outline-success">Register</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<style>
+    .animated {
+        animation-duration: 0.5s;
+        animation-fill-mode: both;
+    }
+
+    .shake {
+        animation-name: shake;
+    }
+
+    @keyframes shake {
+        0%
+
+    {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-8px);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
+
+    75% {
+        transform: translateX(-8px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+    }
+
+    #errorBox {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+</style>

@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Admin Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Admin Login</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form asp-action="AdminLogin" method="post" class="mt-4 col-md-6 offset-md-3">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input name="username" class="form-control" required />
+    </div>
+    <div class="form-group mt-2">
+        <label for="password">Password</label>
+        <input type="password" name="password" class="form-control" required />
+    </div>
+    <div class="form-group mt-3 text-center">
+        <button type="submit" class="btn btn-danger">Login as Admin</button>
+    </div>
+</form>

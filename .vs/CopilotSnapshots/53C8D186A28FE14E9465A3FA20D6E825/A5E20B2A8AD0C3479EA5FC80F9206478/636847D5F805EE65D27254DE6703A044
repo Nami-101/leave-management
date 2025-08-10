@@ -1,0 +1,172 @@
+﻿using LeaveManagementSystemCore.Data;
+using LeaveManagementSystemCore.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace LeaveManagementSystemCore.Controllers
+{
+    [Authorize]
+    public class LeaveRequestController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
+
+        public LeaveRequestController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        {
+            _context = context;
+            _userManager = userManager;
+        }
+
+        // GET: LeaveRequest
+        public async Task<IActionResult> Index()
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            if (await _userManager.IsInRoleAsync(user, "HR"))
+            {
+                var allRequests = await _context.LeaveRequests
+                                                .Include(r => r.User)
+                                                .ToListAsync();
+                return View(allRequests);
+            }
+            else if (await _userManager.IsInRoleAsync(user, "Employee"))
+            {
+                var myRequests = await _context.LeaveRequests
+                                               .Where(r => r.UserId == user.Id)
+                                               .ToListAsync();
+                return View(myRequests);
+            }
+
+            return View("Error");
+        }
+
+        [Authorize(Roles = "Employee")]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Employee")]
+        public async Task<IActionResult> Create(LeaveRequest leaveRequest)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.GetUserAsync(User);
+                leaveRequest.UserId = user.Id;
+                leaveRequest.Status = "Pending";
+                _context.LeaveRequests.Add(leaveRequest);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            TempData["Error"] = "Form validation failed. Please check your input.";
+            return View(leaveRequest);
+        }
+
+        [Authorize(Roles = "Employee")]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var request = await _context.LeaveRequests.FindAsync(id);
+            var user = await _userManager.GetUserAsync(User);
+
+            if (request == null || request.UserId != user.Id)
+                return RedirectToAction(nameof(Index));
+
+            return View(request);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Employee")]
+        public async Task<IActionResult> Edit(LeaveRequest leaveRequest)
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            var existing = await _context.LeaveRequests.AsNoTracking()
+                                                       .FirstOrDefaultAsync(r => r.Id == leaveRequest.Id);
+
+            if (existing == null || existing.UserId != user.Id)
+                return RedirectToAction(nameof(Index));
+
+            leaveRequest.UserId = user.Id;
+            _context.LeaveRequests.Update(leaveRequest);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        [Authorize(Roles = "Employee")]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var request = await _context.LeaveRequests.FindAsync(id);
+            var user = await _userManager.GetUserAsync(User);
+
+            if (request == null || request.UserId != user.Id)
+                return RedirectToAction(nameof(Index));
+
+            return View(request);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Employee")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var request = await _context.LeaveRequests.FindAsync(id);
+            var user = await _userManager.GetUserAsync(User);
+
+            if (request != null && request.UserId == user.Id)
+            {
+                _context.LeaveRequests.Remove(request);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [Authorize(Roles = "HR")]
+        public async Task<IActionResult> Approve(int id)
+        {
+            var request = await _context.LeaveRequests.FindAsync(id);
+            if (request != null && request.Status == "Pending")
+            {
+                request.Status = "Approved";
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
+        [Authorize(Roles = "HR")]
+        public async Task<IActionResult> Reject(int id)
+        {
+            var request = await _context.LeaveRequests.FindAsync(id);
+            if (request != null && request.Status == "Pending")
+            {
+                request.Status = "Rejected";
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var request = await _context.LeaveRequests
+                                        .Include(r => r.User)
+                                        .FirstOrDefaultAsync(r => r.Id == id);
+            if (request == null) return NotFound();
+
+            return View(request);
+        }
+    }
+}

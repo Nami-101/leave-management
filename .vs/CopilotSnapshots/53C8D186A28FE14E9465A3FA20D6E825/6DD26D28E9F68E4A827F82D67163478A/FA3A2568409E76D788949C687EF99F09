@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5 text-center">
+    <h1 class="display-4 mb-3">Welcome to the Leave Management System</h1>
+    <p class="lead mb-4">Choose your role to login or register a new account.</p>
+
+    <div class="mt-4">
+        <a href="@Url.Action("Login", "Account")" class="btn btn-primary btn-lg mx-2">
+            Employee Login
+        </a>
+        <a href="@Url.Action("Login", "Account")" class="btn btn-success btn-lg mx-2">
+            HR Login
+        </a>
+        <a href="@Url.Action("Register", "Account")" class="btn btn-outline-dark btn-lg mx-2">
+            Register
+        </a>
+        <a href="@Url.Action("AdminLogin", "Account")" class="btn btn-danger btn-lg mx-2">
+            Admin Login
+        </a>
+    </div>
+</div>

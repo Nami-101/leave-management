@@ -1,0 +1,6 @@
+﻿namespace LeaveManagementSystemCore.Models.ViewModels
+{
+    public class LoginViewModel
+    {
+    }
+}

@@ -1,0 +1,60 @@
+﻿@model LeaveManagementSystemCore.Models.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>Register</h2>
+
+<form asp-action="Register" method="post" class="form-horizontal" role="form">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="Email" class="form-control" placeholder="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="Password" class="form-control" placeholder="Password" type="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ConfirmPassword" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password" type="password" />
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Role" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <select asp-for="Role" class="form-control" asp-items="ViewBag.Roles"></select>
+            <span asp-validation-for="Role" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-success">Register</button>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <p>Already have an account?</p>
+            <a asp-action="Login" asp-controller="Account" class="btn btn-outline-primary">Login</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <span class="nav-link text-dark hello-username">Hello @User.Identity?.Name</span>
+    </li>
+    <li class="nav-item">
+        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+}
+</ul>
+<style>
+.hello-username {
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+    border-radius: 0.5rem;
+}
+.hello-username:hover {
+    color: #fff !important;
+    background: linear-gradient(90deg, #007bff 0%, #6610f2 100%);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+</style>

@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\pj_int\\LeaveManagementSystemCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\leaverequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\leaverequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\leaverequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\leaverequest\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\account\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\account\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\models\\leaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\controllers\\leaverequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\controllers\\leaverequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\leaverequest\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\leaverequest\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\leaverequest\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\leaverequest\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\leaverequest\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\leaverequest\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\data\\roleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\data\\roleinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\data\\migrations\\20250716080812_addusernavigationtoleaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\data\\migrations\\20250716080812_addusernavigationtoleaverequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|e:\\pj_int\\leavemanagementsystemcore\\leavemanagementsystemcore\\data\\migrations\\20250716115155_adminandrolessetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96EA20B6-613E-4A0F-8611-E653219E3B2F}|LeaveManagementSystemCore\\LeaveManagementSystemCore.csproj|solutionrelative:leavemanagementsystemcore\\data\\migrations\\20250716115155_adminandrolessetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T14:17:23.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T10:33:33.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:30:37.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Create.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Create.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Create.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Create.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T07:43:47.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Index.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Index.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Index.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T07:42:20.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Program.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Program.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Program.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Program.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAYwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T13:01:13.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Delete.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Delete.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T07:46:48.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T07:52:21.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:20:02.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Edit.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Edit.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Edit.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T07:45:19.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Account\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\Account\\AdminLogin.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Account\\AdminLogin.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\Account\\AdminLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T11:12:20.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250716115155_AdminAndRolesSetup.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Data\\Migrations\\20250716115155_AdminAndRolesSetup.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Data\\Migrations\\20250716115155_AdminAndRolesSetup.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Data\\Migrations\\20250716115155_AdminAndRolesSetup.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Data\\Migrations\\20250716115155_AdminAndRolesSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T11:51:56.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:05:44.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeaveRequestController.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Controllers\\LeaveRequestController.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Controllers\\LeaveRequestController.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Controllers\\LeaveRequestController.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Controllers\\LeaveRequestController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAQwLYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:34:54.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeaveRequest.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Models\\LeaveRequest.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Models\\LeaveRequest.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Models\\LeaveRequest.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Models\\LeaveRequest.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:57:26.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T09:33:49.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Details.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Details.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\LeaveRequest\\Details.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\LeaveRequest\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T07:48:47.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250716080812_AddUserNavigationToLeaveRequest.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Data\\Migrations\\20250716080812_AddUserNavigationToLeaveRequest.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Data\\Migrations\\20250716080812_AddUserNavigationToLeaveRequest.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Data\\Migrations\\20250716080812_AddUserNavigationToLeaveRequest.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Data\\Migrations\\20250716080812_AddUserNavigationToLeaveRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:08:12.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoleInitializer.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Data\\RoleInitializer.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Data\\RoleInitializer.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Data\\RoleInitializer.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Data\\RoleInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:23:54.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:26:57.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T18:26:39.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:21:30.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\appsettings.json",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\appsettings.json",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\appsettings.json",
+              "RelativeToolTip": "LeaveManagementSystemCore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T13:01:47.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:57:42.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:57:54.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T13:15:05.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystemCore\\Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\pj_int\\LeaveManagementSystemCore\\LeaveManagementSystemCore\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "LeaveManagementSystemCore\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:56:29.475Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
